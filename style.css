@@ -73,9 +73,12 @@ p {
     justify-content: center;
     gap: 50px;
     background-color: #5140c2;
-    height: 300px;
-
 }
+
+.header > *{
+    flex-basis: 100%;
+}
+
 
 .header h2{
     font-weight: bolder;
