@@ -145,3 +145,19 @@ p {
     padding: 30px 0px 0px 0px;
     margin: 0;
 }
+
+
+/* section quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 10px;
+    background-color: #ce79ffb6;
+    justify-content: center;
+    align-items: center;
+}
+.quote p{
+    max-width: 40ch;
+}
